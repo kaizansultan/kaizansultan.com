@@ -1,0 +1,48 @@
+#hero {
+  padding: 70px 0;
+
+  hgroup {
+    padding: 30px 0;
+  }
+
+  #role-list {
+    font-size: 1.1em;
+  }
+
+  p {
+    max-width: 500px;
+  }
+
+  .cta {
+    padding: 40px 0;
+    a {
+      padding: 15px 30px;
+      border-radius: 5px;
+      font-weight: 600;
+
+      &.project {
+        &:link,
+        &:visited {
+          color: #fff;
+          background: #5341c9;
+        }
+      }
+
+      &.contact {
+        margin-left: 5px;
+
+        &:link,
+        &:visited {
+          color: #000;
+          border: 1px solid #000;
+        }
+      }
+    }
+  }
+}
+
+h1 {
+  margin: 5px 0 10px 0;
+  font-size: 3.1em;
+  font-weight: 900;
+}

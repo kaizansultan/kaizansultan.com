@@ -1,0 +1,49 @@
+body {
+  font-family: "Fira Sans", Inter, sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  min-height: 100vh;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+*:not(.artes *, input, textarea)::selection {
+  background: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+pre {
+  cursor: text !important;
+}
+
+*:not([type="text"]):not([type="password"]):not([type="email"]):not(
+    textarea
+  ):focus {
+  outline: none;
+  box-shadow: none;
+}
+
+*:not([type="text"]):not([type="password"]):not([type="email"]):not(
+    textarea
+  ):focus-visible {
+  outline: #ff0000 2px solid;
+  box-shadow: none;
+}
