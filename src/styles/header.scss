@@ -1,0 +1,39 @@
+#header {
+  position: fixed;
+  background: linear-gradient(100deg, #fff8, #fff);
+  width: 100%;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+
+  .ship {
+    display: grid;
+    grid-template-columns: max-content auto;
+  }
+}
+
+#banner {
+  display: inline-flex;
+  align-items: center;
+  strong {
+    letter-spacing: 2px;
+  }
+}
+
+#main-nav {
+  justify-self: right;
+
+  a {
+    display: inline-block;
+    padding: 20px 10px;
+    font-size: 0.8em;
+
+    &:link,
+    &:visited {
+      color: #555;
+    }
+
+    &:hover {
+      color: #111;
+    }
+  }
+}

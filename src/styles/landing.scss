@@ -1,3 +1,5 @@
+@use "./var.scss";
+
 #hero {
   padding: 70px 0;
 
@@ -24,17 +26,22 @@
         &:link,
         &:visited {
           color: #fff;
-          background: #5341c9;
+          background: var.$cl-main;
         }
       }
 
       &.contact {
         margin-left: 5px;
+        transition: background 0.2s;
 
         &:link,
         &:visited {
           color: #000;
           border: 1px solid #000;
+        }
+
+        &:hover {
+          background: #fff;
         }
       }
     }
@@ -45,4 +52,14 @@ h1 {
   margin: 5px 0 10px 0;
   font-size: 3.1em;
   font-weight: 900;
+}
+
+#lang {
+  background: #fff;
+  color: #333;
+  padding: 50px 0;
+
+  p {
+    max-width: 500px;
+  }
 }
